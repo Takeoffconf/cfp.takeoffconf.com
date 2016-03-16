@@ -646,9 +646,9 @@ object ConferenceDescriptor {
 
   // TODO You might want to start here and configure first, your various Conference Elements
   def current() = ConferenceDescriptor(
-    eventCode = "DevoxxFR2016",
+    eventCode = "TakeoffConf2016",
     // You will need to update conf/routes files with this code if modified
-    confUrlCode = "devoxxfr2016",
+    confUrlCode = "takeoffConf2016",
     frLangEnabled = true,
     fromEmail = Play.current.configuration.getString("mail.from").getOrElse("program@devoxx.fr"),
     committeeEmail = Play.current.configuration.getString("mail.committee.email").getOrElse("program@devoxx.fr"),
@@ -657,7 +657,7 @@ object ConferenceDescriptor {
     conferenceUrls = ConferenceUrls(
       faq = "http://www.devoxx.fr/faq/",
       registration = "https://reg.devoxx.fr",
-      confWebsite = "http://www.devoxx.fr/",
+      confWebsite = "http://www.takeoffconf.com/",
       cfpHostname = Play.current.configuration.getString("cfp.hostname").getOrElse("cfp.devoxx.fr")
     ),
     timing = ConferenceTiming(
@@ -672,11 +672,11 @@ object ConferenceDescriptor {
       cfpClosedOn = DateTime.parse("2016-01-31T09:00:00+02:00"),
       scheduleAnnouncedOn = DateTime.parse("2016-02-25T00:00:00+02:00")
     ),
-    hosterName = "Clever-cloud", hosterWebsite = "http://www.clever-cloud.com/#DevoxxFR",
-    hashTag = "#DevoxxFR",
+    hosterName = "Clever-cloud", hosterWebsite = "http://www.clever-cloud.com/#Takeoffconf",
+    hashTag = "#Takeoffconf",
     conferenceSponsor = ConferenceSponsor(showSponsorProposalCheckbox = true, sponsorProposalType = ConferenceProposalTypes.CONF)
     , List("fr_FR")
-    , "Palais des Congrès, Porte Maillot, Paris"
+    , "EuraTechnologies, 165 Avenue de Bretagne, 59000 Lille"
     , notifyProposalSubmitted = false // Do not send an email for each talk submitted for France
     , 1200 // French developers tends to be a bit verbose... we need extra space :-)
   )
