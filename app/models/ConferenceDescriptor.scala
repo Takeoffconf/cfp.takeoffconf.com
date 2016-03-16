@@ -649,28 +649,28 @@ object ConferenceDescriptor {
     eventCode = "TakeoffConf2016",
     // You will need to update conf/routes files with this code if modified
     confUrlCode = "takeoffConf2016",
-    frLangEnabled = true,
-    fromEmail = Play.current.configuration.getString("mail.from").getOrElse("program@devoxx.fr"),
-    committeeEmail = Play.current.configuration.getString("mail.committee.email").getOrElse("program@devoxx.fr"),
+    frLangEnabled = false,
+    fromEmail = Play.current.configuration.getString("mail.from").getOrElse("benjamin.digeon@takeoffconf.fr"),
+    committeeEmail = Play.current.configuration.getString("mail.committee.email").getOrElse("benjamin.digeon@takeoffconf.fr"),
     bccEmail = Play.current.configuration.getString("mail.bcc"),
-    bugReportRecipient = Play.current.configuration.getString("mail.bugreport.recipient").getOrElse("nicolas.martignole@devoxx.fr"),
+    bugReportRecipient = Play.current.configuration.getString("mail.bugreport.recipient").getOrElse("benjamin.digeon@takeoffconf.fr"),
     conferenceUrls = ConferenceUrls(
-      faq = "http://www.devoxx.fr/faq/",
-      registration = "https://reg.devoxx.fr",
+      faq = "http://www.takeoffconf.com/faq/",
+      registration = "http://eventbrite.takeoffconf.com ",
       confWebsite = "http://www.takeoffconf.com/",
-      cfpHostname = Play.current.configuration.getString("cfp.hostname").getOrElse("cfp.devoxx.fr")
+      cfpHostname = Play.current.configuration.getString("cfp.hostname").getOrElse("cfp.takeoffconf.com")
     ),
     timing = ConferenceTiming(
-      datesI18nKey = "20 au 22 avril 2016",
+      datesI18nKey = "6 au 8 octobre 2016",
       speakersPassDuration = 5,
       preferredDayEnabled = true,
-      firstDayFr = "20 avril",
-      firstDayEn = "april 20th",
-      datesFr = "du 20 au 22 avril 2016",
-      datesEn = "from 20th to 22nd of April, 2016",
-      cfpOpenedOn = DateTime.parse("2015-11-11T00:00:00+02:00"),
-      cfpClosedOn = DateTime.parse("2016-01-31T09:00:00+02:00"),
-      scheduleAnnouncedOn = DateTime.parse("2016-02-25T00:00:00+02:00")
+      firstDayFr = "6 octobre",
+      firstDayEn = "october 26th",
+      datesFr = "du 6 au 8 october 2016",
+      datesEn = "from 6th to 8nd of October, 2016",
+      cfpOpenedOn = DateTime.parse("2016-03-17T00:00:00+02:00"),
+      cfpClosedOn = DateTime.parse("2016-08-15T09:00:00+02:00"),
+      scheduleAnnouncedOn = DateTime.parse("2016-03-16T00:00:00+02:00")
     ),
     hosterName = "Clever-cloud", hosterWebsite = "http://www.clever-cloud.com/#Takeoffconf",
     hashTag = "#Takeoffconf",
