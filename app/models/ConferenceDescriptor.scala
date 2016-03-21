@@ -669,7 +669,7 @@ object ConferenceDescriptor {
       datesFr = "du 6 au 8 october 2016",
       datesEn = "from 6th to 8nd of October, 2016",
       cfpOpenedOn = DateTime.parse("2016-03-17T00:00:00+02:00"),
-      cfpClosedOn = DateTime.parse("2016-08-15T09:00:00+02:00"),
+      cfpClosedOn = DateTime.parse("2016-09-06T09:00:00+02:00"),
       scheduleAnnouncedOn = DateTime.parse("2016-03-16T00:00:00+02:00")
     ),
     hosterName = "Clever-cloud", hosterWebsite = "http://www.clever-cloud.com/#Takeoffconf",
