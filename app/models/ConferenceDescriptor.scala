@@ -178,11 +178,7 @@ object ConferenceDescriptor {
     val ARCHISEC = Track("archisec", "archisec.label")
     val AGILE_DEVOPS = Track("agTest", "agile_devops.label")
     val CLOUD = Track("cldops", "cloud.label")
-    val BIGDATA = Track("bigd", "bigdata.label")
-    val FUTURE = Track("future", "future.label")
-    val LANG = Track("lang", "lang.label")
-    val UNKNOWN = Track("unknown", "unknown track")
-    val ALL = List(JAVA,MOBILE,WEB,ARCHISEC,AGILE_DEVOPS,CLOUD,BIGDATA,FUTURE,LANG,UNKNOWN)
+    val ALL = List(JAVA,MOBILE,WEB,ARCHISEC,AGILE_DEVOPS,CLOUD)
   }
 
   // TODO configure the description for each Track
@@ -193,11 +189,8 @@ object ConferenceDescriptor {
     val ARCHISEC = TrackDesc(ConferenceTracks.ARCHISEC.id, "/assets/dvfr2015/images/icon_architecture.png", "track.archisec.title", "track.archisec.desc")
     val AGILE_DEVOPS = TrackDesc(ConferenceTracks.AGILE_DEVOPS.id, "/assets/dvfr2015/images/icon_startup.png", "track.agile_devops.title", "track.agile_devops.desc")
     val CLOUD = TrackDesc(ConferenceTracks.CLOUD.id, "/assets/dvfr2015/images/icon_cloud.png", "track.cloud.title", "track.cloud.desc")
-    val BIGDATA = TrackDesc(ConferenceTracks.BIGDATA.id, "/assets/dvfr2015/images/icon_mobile.png", "track.bigdata.title", "track.bigdata.desc")
-    val FUTURE = TrackDesc(ConferenceTracks.FUTURE.id, "/assets/dvfr2015/images/icon_future.png", "track.future.title", "track.future.desc")
-    val LANG = TrackDesc(ConferenceTracks.LANG.id, "/assets/dvfr2015/images/icon_alternative.png", "track.lang.title", "track.lang.desc")
 
-    val ALL = List(JAVA, MOBILE, WEB, ARCHISEC, AGILE_DEVOPS, CLOUD, BIGDATA, FUTURE, LANG)
+    val ALL = List(JAVA, MOBILE, WEB, ARCHISEC, AGILE_DEVOPS, CLOUD)
 
     def findTrackDescFor(t: Track): TrackDesc = {
       ALL.find(_.id == t.id).head

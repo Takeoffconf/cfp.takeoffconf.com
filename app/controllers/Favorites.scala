@@ -24,9 +24,7 @@
 package controllers
 
 import play.api.mvc.{Action, AnyContent, Request}
-
 import scala.concurrent.Future
-
 
 /**
  * Controller used from the program pages, to fav a talk.
