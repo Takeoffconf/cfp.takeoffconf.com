@@ -654,16 +654,16 @@ object ConferenceDescriptor {
       cfpHostname = Play.current.configuration.getString("cfp.hostname").getOrElse("cfp.takeoffconf.com")
     ),
     timing = ConferenceTiming(
-      datesI18nKey = "6 au 8 octobre 2016",
+      datesI18nKey = "20 au 21 octobre 2016",
       speakersPassDuration = 5,
       preferredDayEnabled = true,
-      firstDayFr = "6 octobre",
-      firstDayEn = "october 26th",
-      datesFr = "du 6 au 8 october 2016",
-      datesEn = "from 6th to 8nd of October, 2016",
+      firstDayFr = "20 octobre",
+      firstDayEn = "october 20th",
+      datesFr = "du 20 au 21 october 2016",
+      datesEn = "from 20th to 21nd of October, 2016",
       cfpOpenedOn = DateTime.parse("2016-03-17T00:00:00+02:00"),
       cfpClosedOn = DateTime.parse("2016-09-06T09:00:00+02:00"),
-      scheduleAnnouncedOn = DateTime.parse("2016-03-16T00:00:00+02:00")
+      scheduleAnnouncedOn = DateTime.parse("2016-07-14T00:00:00+02:00")
     ),
     hosterName = "Clever-cloud", hosterWebsite = "http://www.clever-cloud.com/#Takeoffconf",
     hashTag = "#Takeoffconf",

@@ -162,57 +162,42 @@ theme.title=Tracks
 theme.track=List of tracks for Take Off Conf 2016:
 track.title=Title
 track.description=Description
-appel.conf.dates=Take Off Conf 2016, 20th-22nd April 2016
+appel.conf.dates=Take Off Conf 2016, 20th-21nd October 2016
 
 # Tracks
 
 track.java.title=Programming
-track.java.desc=Programming
+track.java.desc=Which languages will be hot in the near future?
 java.label=Programming
 java.leaderboard=Programming
 
 track.mobile.title=Mobile
-track.mobile.desc=Mobile
+track.mobile.desc=The last trends in mobile apps development. Native vs hybrid ...
 mobile.label=Mobile
 mobile.leaderboard=Mobile
 
 track.web.title=Architecture
-track.web.desc=Architecture
+track.web.desc= New evolution in software architecture and patterns.
 web.label=Architecture
 wm.label=Architecture
 wm.leaderboard=Architecture
 
 track.archisec.title=IoT
-track.archisec.desc=IoT
+track.archisec.desc=A lot of devices are now connected. What will be next and why will it be great?
 archisec.label=IoT
 archisec.leaderboard=IoT
 
 track.agile_devops.title=UX / UI
-track.agile_devops.desc=UX / UI
+track.agile_devops.desc=Next tendances on UX and UI design. Beyond Flat and Material.
 agile_devops.label=UX / UI
 agTest.label=UX / UI
 agTest.leaderboard=UX / UI
 
 track.cloud.title=Inspiration
-track.cloud.desc=Inspiration
+track.cloud.desc=Developers are humans too. Inspire them!
 cloud.label=Inspiration
 cldops.label=Inspiration
 cldops.leaderboard=Inspiration
-
-track.bigdata.title=Big Data & Analytics
-track.bigdata.desc=From real-time analysis to massive prediction and cloud storage
-bigdata.label=Big Data & Analytics
-bigd.leaderboard=Big Data & Analytics
-
-track.future.title=Future & Robotics
-track.future.desc=Developing for the Internet of Things, Arduino, Raspberry, etc.
-future.label=Future & Robotics
-future.leaderboard=Future & Robotics
-
-track.lang.title=Alternate Languages
-track.lang.desc=Groovy, Scala, Go, Javascript, Clojure, Haskell, Ceylon, etc.
-lang.label=Alternate Languages
-lang.leaderboard=Alternate Languages
 
 # confirm import
 confirm.import.title=Create your Speaker''s profile
