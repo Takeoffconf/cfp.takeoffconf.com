@@ -663,7 +663,7 @@ object ConferenceDescriptor {
       datesEn = "from 20th to 21nd of October, 2016",
       cfpOpenedOn = DateTime.parse("2016-03-17T00:00:00+02:00"),
       cfpClosedOn = DateTime.parse("2016-09-06T09:00:00+02:00"),
-      scheduleAnnouncedOn = DateTime.parse("2016-07-14T00:00:00+02:00")
+      scheduleAnnouncedOn = DateTime.parse("2016-09-23T00:00:00+02:00")
     ),
     hosterName = "Clever-cloud", hosterWebsite = "http://www.clever-cloud.com/#Takeoffconf",
     hashTag = "#Takeoffconf",
